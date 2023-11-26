@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form.</title>
+    <style>
+        body{
+            background-image:url("background.jpeg");
+        }
+        body h1{
+            text-align: center;
+            color: rgb(57, 11, 11);
+        }
+    legend{
+        color:rgb(221, 116, 78)  
+    }
+    label{
+        color: rgb(158, 193, 87);
+    }
+    button:hover{
+        color: brown;
+        font-weight: bold;
+    }
+    .centername{
+        text-align: center;
+    }
+    
+    img{
+        border-radius: 50%;
+        margin-left: 40px ;
+    
+    }
+    </style>
+
+</head>
+<body>
+    <div class="centername">><h1><u>Classic Tution Center..</u><img src="formlogo.png" alt="logo" height="100"></h1></div>
+    <h2><u>Please fill up the Admission form....</u></h2>
+   <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+ 
+            <p>
+                <label>
+                    Salutation
+                    
+                    <select name="salutation">
+                        <option>--None--</option>
+                        <option>Mr.</option>
+                        <option>Ms.</option>
+                    </select>
+                </label>
+            </p>
+ 
+            <p>
+                <label>First name: <input name="firstName" /></label>
+            </p>
+ 
+            <p>
+                <label>Last name: <input name="lastName" /></label>
+            </p>
+           
+            <p>
+                
+                <label>Gender :<input type="radio" name="gender"
+                              value="male" />
+                      Male   
+                  </label>
+                <label><input type="radio" name="gender"
+                              value="female" />
+                      Female   
+                  </label>
+            </p>
+            <p>
+                <label>School name: <input name="Schoolname" /></label>
+            </p>
+            <p>
+                
+                <label>Select Class:<input type="radio" name="class"
+                              value="V" />
+                      V   
+                  </label>
+             <label><input type="radio" name="class"
+                              value="VI" />
+                      VI   
+                  </label>
+                  <label><input type="radio" name="class"
+                              value="VII" />
+                      VII   
+                  </label>
+                  <label><input type="radio" name="class"
+                              value="VIII" />
+                      VIII   
+                  </label>
+                  <label><input type="radio" name="class"
+                              value="IX" />
+                      IX   
+                  </label>
+                  <label><input type="radio" name="class"
+                              value="X" />
+                      X   
+                  </label>
+                  <label><input type="radio" name="class"
+                              value="XI" />
+                      XI   
+                  </label>
+                  <label><input type="radio" name="class"
+                              value="XII" />
+                      XII   
+                  </label>
+            </p>
+ 
+            
+          <p>
+           
+            <label> Select Subjects:<input type="checkbox" name="subject"
+                              value="Maths" />
+                      Maths  
+                  </label>
+                  <label><input type="checkbox" name="subject"
+                              value="Physics" />
+                      Physics  
+                  </label>
+                  <label><input type="checkbox" name="subject"
+                              value="Chemisrty" />
+                      Chemistry 
+                  </label>
+                  <label><input type="checkbox" name="subject"
+                              value="Computer Science" />
+                      Computer Science  
+                  </label>
+                  
+          </p>
+          <p>
+            <label>
+                Preferable Timing :
+                    
+                    <select name="Timings">
+                        <option>--None--</option>
+                        <option>6:00-7:45 am</option>
+                        <option>8:00-9:45 am</option>
+                        <option>6:00-7:45 pm</option>
+                        <option>8:00-9:45 pm</option>
+                    </select>
+                </label>
+
+          </p>
+          <p>
+            <label>
+                Preferable Day :
+                    
+                    <select name="Day">
+                        <option>--None--</option>
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                    </select>
+                </label>
+
+          </p>
+          <p>
+            <label>Preferable mode:
+                <select name="modeofclass" >
+                    <option>--None--</option>
+                    <option>Online</option>
+                    <option>Offline</option>
+                </select>
+
+            </label>
+          </p>
+          <p>
+            <label>Contact Number(whatsapp):<input type="mobile number"
+                                name="Number" />
+              </label>
+        </p>
+          <p>
+                <label>Email:<input type="email"
+                                    name="email" />
+                  </label>
+            </p>
+            <p>
+                <label>Date of Birth:<input type="date"
+                                            name="birthDate">
+                  </label>
+            </p>
+ 
+            <p>
+                <label>
+                    Address :
+                    <br />
+                    <textarea name="address" cols="30"
+                              rows="3">
+                      </textarea>
+                </label>
+            </p>
+            <p>
+                <div class="note">
+                  <b><u>Note:</u></b><br>
+                 Tution Fees:Each subject:Rs.1000 <br>
+                 Two days in a week upto class IX. <br>
+                 Only one subject & one day in a week for class X,XI,XII. <br>
+                
+                </div>
+                
+            </p>
+ 
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+ 
+        </fieldset>
+    </form>
+</body>
+</html>
